@@ -15,6 +15,7 @@ class LoginController {
         session()->put('email',$logininput['email']);
         session()->put('password',$logininput['password']);
         $result = Loginresult::loginresult();
+        dd(session()->all());
         if (empty($result)){
             session()->flush();
             return view('login',['logincheck' => true]); 
