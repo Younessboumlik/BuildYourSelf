@@ -106,7 +106,7 @@
               </li>
               <div class="dropdown">
                 <boutton class="btn dropdown-toggle border-0 text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  inscription
+                  inscription         
                 </boutton>
                 <ul class="dropdown-menu">
                   @if(session("status") == "student")
