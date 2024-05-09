@@ -8,7 +8,7 @@ class Loginresult{
     }
     public static function accountexist(){
       $results = DB::select("select * from users where email = ?",[session()->get('email')]);
-      session()->put("status",$results[0]["status"]);
+      // session()->put("status",$results[0]["status"]);
       return $results;
     }
     public static function insertuserdata(){

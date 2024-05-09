@@ -16,6 +16,7 @@ class LoginController {
         session()->put('password',$logininput['password']);
         $result = Loginresult::loginresult();
         session()->put("status",($result[0])->status);
+        session()->put("id",($result[0])->user_id);
        
         if (empty($result)){
             session()->flush();

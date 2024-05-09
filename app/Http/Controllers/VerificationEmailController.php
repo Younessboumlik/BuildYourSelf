@@ -9,7 +9,7 @@ class VerificationEmailController{
     $codeverif = session()->get('codeverif');
     if ($resultcode['codeinput'] == (string)$codeverif){
         Loginresult::insertuserdata();
-        return view('la_une',[]);
+        return view('homeaftersignin',[]);
     }
     else {
         $codeverif = rand(100000,999999);
