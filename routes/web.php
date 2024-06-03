@@ -21,3 +21,4 @@ Route::post('/creataccount/new',[LoginController::class ,'datauserverification']
 Route::post('/verificationemail',[VerificationEmailController::class ,'verificationemail']);
 Route::post('/getdata',[InscrietController::class ,'getdata']);
 Route::post('/endinscription',[InscrietController::class ,'getdata']);
+Route::post('/end',[InscrietController::class ,'inscriptionetu']);

@@ -16,7 +16,7 @@
             <img src="5fcddbf4f1ce4bf6a2492d5c3bec559d.png" class="img-fluid rounded-start align-self-center">
           </div>
           <div class="col-md-8 bg-light-subtle  shadow-lg rounded-3">
-            <form class="card-body">
+            <form class="card-body" method="post" action = "/end">
               @csrf
               <h1 class="card-title text-center ">enregistrer vous</h1>
               <div class="input-group mb-3">

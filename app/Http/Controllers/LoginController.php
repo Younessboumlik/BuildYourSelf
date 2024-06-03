@@ -15,13 +15,15 @@ class LoginController {
         session()->put('email',$logininput['email']);
         session()->put('password',$logininput['password']);
         $result = Loginresult::loginresult();
-        session()->put("status",($result[0])->status);
-       
+        
+        
         if (empty($result)){
             session()->flush();
-            return view('login',['logincheck' => true]); 
+            return view('login',['logincheck' => true]);
         }
         else {
+        session()->put("status",($result[0])->status);
+        session()->put("id",($result[0])->user_id);
             return view('homeaftersignin');
         }
 

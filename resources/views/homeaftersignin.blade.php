@@ -127,7 +127,7 @@
               <a class="nav-link" href="#" data-bs-target="#exampleModal" data-bs-toggle="modal">contact us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/login">login</a>
+              <a class="nav-link" href="/profile"><img src = "/user.png" style="height: 30px; width:30px"></a>
             </li>
            
           </ul>
