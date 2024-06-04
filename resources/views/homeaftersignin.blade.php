@@ -131,7 +131,6 @@
             </li>
            
           </ul>
-          <button class = "btn btn-dark">dark mode</button>
         </div>
       </div>
     </div>

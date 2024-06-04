@@ -33,6 +33,7 @@ public function getdata(){
         DB::update("UPDATE ProfessorEnrollments set group_id = ? where enrollment_id = ?",[$groupe_id,$result[0]->enrollment_id]);
         DB::delete("DELETE FROM ProfessorWaitingLists WHERE enrollment_id = ?",[$result[0]->enrollment_id]);
       }
+      session()->put("status",("student"));
       return view('homeaftersignin');
 
     }
@@ -40,6 +41,8 @@ public function getdata(){
       DB::update("UPDATE groupes  set num_students = ? where group_id = ?",[$res[0]->num_students + 1 , $res[0]->group_id]);
       DB::insert("update users set status = ? where user_id = ? ",["student",session()->get("id")]);
       DB::insert("insert into studentenrollments(num_months,user_id ,group_id) values (?,?,?)",[$donne["nbrmois"],session()->get("id"),$res[0]->group_id]);
+      session()->put("status",("student"));
+      return view('homeaftersignin');
     }
     
 }

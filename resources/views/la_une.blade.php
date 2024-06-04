@@ -124,7 +124,6 @@
             </li>
            
           </ul>
-          <button class = "btn btn-dark">dark mode</button>
         </div>
       </div>
     </div>
@@ -408,35 +407,36 @@
           <h5 class="text-uppercase">Footer Content</h5>
   
           <p>
-            Here you can use rows and columns to organize your footer content.
+            Centre de Formation<br>
+            123 Rue Rue bernosi, Casablanca<br>
+            Téléphone: 01 23 45 67 89<br>
+            Email: buildyouself@gmail.com <br>          
           </p>
         </div>
         <!--Grid column-->
   
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">WHAT WE HAVE</h5>
   
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-dark">Link 1</a>
+              <a href="#info" class="text-dark">Informatique</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Link 2</a>
+              <a href="#info" class="text-dark">Soutien Scolaire</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Link 3</a>
+              <a href="#info" class="text-dark">Soft Skills</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Link 4</a>
+              <a href="#info" class="text-dark">languages</a>
             </li>
           </ul>
         </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
+       
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-0">Links</h5>
+          <h5 class="text-uppercase mb-0">CONTACTS</h5>
   
           <ul class="list-unstyled">
             <li>
@@ -464,7 +464,8 @@
       © 2024 Copyright:
       <a class="text-dark" href="https://mdbootstrap.com/">YourWebsite.com</a>
     </div>
-    <!-- Copyright -->
+
+  </footer>
   </footer>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

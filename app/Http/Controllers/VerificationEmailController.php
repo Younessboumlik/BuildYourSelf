@@ -9,6 +9,9 @@ class VerificationEmailController{
     $codeverif = session()->get('codeverif');
     if ($resultcode['codeinput'] == (string)$codeverif){
         Loginresult::insertuserdata();
+        $result = Loginresult::loginresult();
+        session()->put("status",($result[0])->status);
+        session()->put("id",($result[0])->user_id);
         return view('homeaftersignin',[]);
     }
     else {
