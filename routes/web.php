@@ -25,3 +25,6 @@ Route::post('/getdata',[InscrietController::class ,'getdata']);
 Route::get('/profile',[ProfileController::class,'main'])->name('posts.profile');
 Route::post('/endinscription',[InscrietController::class ,'getdata']);
 Route::post('/end',[InscrietController::class ,'inscriptionetu']);
+Route::get('/home/me',function () {
+    return view('homeaftersignin');
+});

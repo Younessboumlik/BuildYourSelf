@@ -102,7 +102,7 @@
             <li class="nav-item">
               <!-- <a class="nav-link" aria-current="page" href="#">inscription</a> -->
               <li class="nav-item">
-                <a class="nav-link" href="la_une.html">home</a>
+                <a class="nav-link" href="/home/me">home</a>
               </li>
               <div class="dropdown">
                 <boutton class="btn dropdown-toggle border-0 text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -140,25 +140,25 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">cintact us</h5>
+          <h5 class="modal-title" id="exampleModalLabel">contact us</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
       <div class="modal-body bg-light ">
         <div class="input-group mb-3">
             <!-- <span class="input-group-text" id="basic-addon1">@</span> -->
             <div class="form-floating mb-3" class="form-control">
-             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" id = "email">
              <label for="floatingInput">Email address</label>
             </div>
         </div>
         <div class="form-floating mb-3" class="form-control">
-           <textarea name="" id="" class="form-control" style = "width: 100%; height: 300px;  resize:none !important;"></textarea>
+           <textarea name="" id="text" class="form-control" style = "width: 100%; height: 300px;  resize:none !important;"></textarea>
            <label for="floatingInput">votre text</label>
         </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-success ">envoyer</button>
+        <button type="button" class="btn btn-success " id = "envoyer">envoyer</button>
       </div>
     </div>
     </div>
@@ -405,35 +405,36 @@
           <h5 class="text-uppercase">Footer Content</h5>
   
           <p>
-            Here you can use rows and columns to organize your footer content.
+            Centre de Formation<br>
+            123 Rue Rue bernosi, Casablanca<br>
+            Téléphone: 01 23 45 67 89<br>
+            Email: buildyouself@gmail.com <br>          
           </p>
         </div>
         <!--Grid column-->
   
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">WHAT WE HAVE</h5>
   
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-dark">Link 1</a>
+              <a href="#info" class="text-dark">Informatique</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Link 2</a>
+              <a href="#info" class="text-dark">Soutien Scolaire</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Link 3</a>
+              <a href="#info" class="text-dark">Soft Skills</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Link 4</a>
+              <a href="#info" class="text-dark">languages</a>
             </li>
           </ul>
         </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
+       
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-0">Links</h5>
+          <h5 class="text-uppercase mb-0">CONTACTS</h5>
   
           <ul class="list-unstyled">
             <li>
@@ -461,12 +462,14 @@
       © 2024 Copyright:
       <a class="text-dark" href="https://mdbootstrap.com/">YourWebsite.com</a>
     </div>
-    <!-- Copyright -->
+
   </footer>
   
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
     function onScroll() {
   const infoElement = document.getElementById('info');
@@ -508,6 +511,7 @@ window.addEventListener('load',()=>{
     spinnercontainer.style.display = 'none'
   },200)
 })
+        
   </script>
 </body>
 </html>
