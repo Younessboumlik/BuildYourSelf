@@ -28,3 +28,7 @@ Route::post('/end',[InscrietController::class ,'inscriptionetu']);
 Route::get('/home/me',function () {
     return view('homeaftersignin');
 });
+Route::get('/logout', function () {
+    session()->flush();
+    return redirect('/');
+});
