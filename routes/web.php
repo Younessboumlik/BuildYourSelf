@@ -28,6 +28,8 @@ Route::post('/end',[InscrietController::class ,'inscriptionetu']);
 Route::get('/home/me',function () {
     return view('homeaftersignin');
 });
+Route::delete('/profile/course/{id}', [ProfileController::class, 'deleteCourse'])->name('profile.course.delete');
+
 Route::get('/logout', function () {
     session()->flush();
     return redirect('/');

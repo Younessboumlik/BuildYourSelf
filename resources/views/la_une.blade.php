@@ -320,7 +320,7 @@
       </div>
     </div>
   </div>
-  <h1 class = "text-center">owr offers</h1>
+  <h1 class = "text-center">our offers</h1>
   <div class = "container d-flex justify-content-around flex-wrap " id= "offers">
 
     <div class="card  mb-3 text-center " style="max-width: 18rem; box-shadow: none; border:0cap">

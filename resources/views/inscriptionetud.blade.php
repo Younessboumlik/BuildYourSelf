@@ -65,7 +65,7 @@ service.addEventListener('change',function(){
 
         var option = document.createElement("option");
         option.value = data[i].course_id;
-        option.text = data[i].label;
+        option.text = data[i].course_label;
         cours.appendChild(option)
     }
     })

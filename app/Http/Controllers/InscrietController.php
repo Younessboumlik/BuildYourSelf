@@ -17,7 +17,7 @@ class InscrietController {
 public function getdata(){
     $id_service = (request()->json()->all())['id_service'];
     // dd($id_service);
-    $courses = DB::select('select course_id,label from courses where service_id = ?',[$id_service]);
+    $courses = DB::select('select course_id,course_label from courses where service_id = ?',[$id_service]);
     return response()->json($courses,200);
     }
     public function inscriptionetu(){
