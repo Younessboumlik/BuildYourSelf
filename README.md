@@ -71,7 +71,3 @@ We would like to express our deep gratitude to Monsieur ELBANNAY for this valuab
 ## Authors
 - Youness Boumlik
 - Abdellah Boulidam
-- Fadil Hossam
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
