@@ -48,17 +48,35 @@ A well-structured and intuitive web interface is essential for providing a good 
 
 4. **Footer**: Combines all site elements and includes copyright information.
 
+![image](https://github.com/user-attachments/assets/bb4aa164-15d9-4140-8dbc-bd3634297ec2)
+![image](https://github.com/user-attachments/assets/2fa4078b-ecde-4ca2-9d40-455da73c21c5)
+![image](https://github.com/user-attachments/assets/c30011a4-8140-4ab6-ad2c-dfe69f165cd5)
+![image](https://github.com/user-attachments/assets/4117cc20-cb27-4d1d-b4e5-3ce823dc3563)
+
+
 ### Login Page
 The login page is a crucial element of any website or web application, serving as a gateway for users to access protected content and features. It typically includes fields for users to enter their credentials.
+![image](https://github.com/user-attachments/assets/3d6f326c-41bd-4322-9910-659b46953054)
+
 
 ### Register Page
 A registration page guides users through the process of creating a new account on a website or application. This page is essential for allowing users to access specific services or content without having to log in immediately. We verify the email validation using EmailJS.
 
+![image](https://github.com/user-attachments/assets/3940077c-4a8b-445e-9b34-690abdc06521)
+![image](https://github.com/user-attachments/assets/1ae5d204-f414-405b-a2e5-018b12f56dd1)
+
+
+
 ### Contact Form
 Our contact form includes fields for the user's email address and a text area for their message, along with a 'Send' button. There's an option to close the form in the upper right corner.
+![image](https://github.com/user-attachments/assets/a5dd81e5-220c-4627-acf1-45d49e4f1b76)
 
 ### Verification Code Page
 We use EmailJS, a JavaScript-based email sending service, to send verification emails. When a user registers or performs an action requiring verification, our site generates a unique verification code. This code is sent to the user via an automated email managed by EmailJS. The user receives the email and enters the verification code on our site to confirm their action, adding an extra layer of security and authenticity.
+
+![image](https://github.com/user-attachments/assets/4943468e-8468-4492-ac26-ec700289109f)
+![image](https://github.com/user-attachments/assets/4b92f4ee-61a4-4ab1-8918-d31925691df3)
+
 
 ## Collaboration
 Collaboration was a key aspect of this project. We used GitHub as a platform for our teamwork, allowing us to share code efficiently, track changes, and resolve issues together. We divided the work while maintaining an overview of the project through the use of branches and pull requests. This experience not only helped us learn to work as a team but also understand the importance of communication and coordination in software development. Working together on this project allowed us to combine our skills and knowledge to create this application.
